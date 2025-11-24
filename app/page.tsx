@@ -57,7 +57,8 @@ export default function HomePage() {
             </div>
           </div>
 
-          <h1 className="text-4xl font-bold mb-3 text-balance">الخدمات وآخر العروض</h1>
+          <h1 className="text-3xl font-bold mb-3 text-balance flex justify-center">الخدمات وآخر العروض
+          <img src="/bagge.png" alt="log" width={40}/></h1>
         </div>
 
         {/* Links Section */}
