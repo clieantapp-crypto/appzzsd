@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ar" dir="rtl">
+<head>
+<meta name="google-site-verification" content="-zXMHL9cXqcaAaUHuulpw8Inoie8gPNY8d8DK9yM2fk" />
+</head>
       <body>
           
         {/* Google Ads Tag */}
