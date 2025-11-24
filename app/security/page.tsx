@@ -4,8 +4,8 @@ import { ArrowLeft, Shield, Lock, Eye, AlertTriangle } from "lucide-react"
 import { Card } from "@/components/ui/card"
 
 export const metadata = {
-  title: "Security - ararbuc",
-  description: "Security policies and guidelines for ararbuc bio links page",
+  title: "الأمان - infoallc",
+  description: "سياسات وإرشادات الأمان لصفحة الروابط الحيوية الخاصة بـ infoallc",
 }
 
 export default function SecurityPage() {
@@ -15,199 +15,177 @@ export default function SecurityPage() {
         <Link href="/">
           <Button variant="ghost" className="mb-8">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Home
+            العودة إلى الرئيسية
           </Button>
         </Link>
 
         <article className="prose prose-slate dark:prose-invert max-w-none">
-          <h1 className="text-4xl font-bold mb-4 text-balance">Security</h1>
-          <p className="text-muted-foreground mb-8">Last Updated: November 24, 2025</p>
+          <h1 className="text-4xl font-bold mb-4 text-balance">الأمان</h1>
+          <p className="text-muted-foreground mb-8">آخر تحديث: 24 نوفمبر 2025</p>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">Our Commitment to Security</h2>
+            <h2 className="text-2xl font-semibold mb-4">التزامنا بالأمان</h2>
             <p className="leading-relaxed mb-6">
-              At ararbuc, we take the security of your information seriously. This page outlines our security practices
-              and guidelines to ensure your data remains protected.
+              في infoallc، نولي أهمية كبيرة لأمان معلوماتك. توضح هذه الصفحة ممارسات وإرشادات الأمان لدينا لضمان بقاء بياناتك محمية.
             </p>
 
             <div className="grid md:grid-cols-2 gap-4 mb-8 not-prose">
               <Card className="p-6">
                 <Shield className="w-10 h-10 text-primary mb-4" />
-                <h3 className="font-semibold text-lg mb-2">Data Protection</h3>
+                <h3 className="font-semibold text-lg mb-2">حماية البيانات</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  We implement industry-standard encryption and security protocols to protect your data.
+                  نطبق بروتوكولات التشفير ومعايير الأمان المتعارف عليها في الصناعة لحماية بياناتك.
                 </p>
               </Card>
 
               <Card className="p-6">
                 <Lock className="w-10 h-10 text-primary mb-4" />
-                <h3 className="font-semibold text-lg mb-2">Secure Connections</h3>
+                <h3 className="font-semibold text-lg mb-2">اتصالات آمنة</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  All data transmitted through our website is encrypted using SSL/TLS protocols.
+                  جميع البيانات المرسلة عبر موقعنا مشفرة باستخدام بروتوكولات SSL/TLS.
                 </p>
               </Card>
 
               <Card className="p-6">
                 <Eye className="w-10 h-10 text-primary mb-4" />
-                <h3 className="font-semibold text-lg mb-2">Privacy First</h3>
+                <h3 className="font-semibold text-lg mb-2">الخصوصية أولاً</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  We minimize data collection and only gather what{"'"}s necessary for service operation.
+                  نقلل قدر الإمكان من جمع البيانات ولا نجمع إلا ما هو ضروري لتشغيل الخدمة.
                 </p>
               </Card>
 
               <Card className="p-6">
                 <AlertTriangle className="w-10 h-10 text-primary mb-4" />
-                <h3 className="font-semibold text-lg mb-2">Incident Response</h3>
+                <h3 className="font-semibold text-lg mb-2">الاستجابة للحوادث</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  We have procedures in place to quickly respond to any security incidents.
+                  لدينا إجراءات جاهزة للاستجابة السريعة لأي حادث أمني.
                 </p>
               </Card>
             </div>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">1. Data Encryption</h2>
+            <h2 className="text-2xl font-semibold mb-4">1. تشفير البيانات</h2>
             <p className="leading-relaxed mb-4">
-              All data transmitted between your device and our servers is encrypted using industry-standard SSL/TLS
-              protocols. This ensures that your information cannot be intercepted or read by unauthorized third parties
-              during transmission.
+              يتم تشفير جميع البيانات المرسلة بين جهازك وخوادمنا باستخدام بروتوكولات SSL/TLS المعتمدة في الصناعة،
+              مما يضمن عدم اعتراضها أو قراءتها من قبل جهات غير مخولة.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">2. Access Controls</h2>
-            <p className="leading-relaxed mb-4">
-              We implement strict access controls to ensure that only authorized personnel have access to sensitive
-              data. This includes:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">2. ضوابط الوصول</h2>
+            <p className="leading-relaxed mb-4">نطبق ضوابط وصول صارمة لضمان أن الأفراد المصرح لهم فقط يمكنهم الوصول إلى البيانات الحساسة، بما في ذلك:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Multi-factor authentication for administrative access</li>
-              <li>Role-based access control {"(RBAC)"}</li>
-              <li>Regular access audits and reviews</li>
-              <li>Principle of least privilege enforcement</li>
+              <li>المصادقة متعددة العوامل للوصول الإداري</li>
+              <li>التحكم بالوصول المبني على الدور {"(RBAC)"}</li>
+              <li>مراجعات وتدقيقات وصول منتظمة</li>
+              <li>تطبيق مبدأ أقل صلاحية ممكنة</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">3. Infrastructure Security</h2>
-            <p className="leading-relaxed mb-4">
-              Our infrastructure is hosted on secure, enterprise-grade servers with the following protections:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">3. أمان البنية التحتية</h2>
+            <p className="leading-relaxed mb-4">تستضيف بنيتنا التحتية خوادم آمنة من الدرجة المؤسسية مع الحماية التالية:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Firewall protection and intrusion detection systems</li>
-              <li>Regular security patches and updates</li>
-              <li>Automated backups and disaster recovery procedures</li>
-              <li>DDoS protection and traffic monitoring</li>
-              <li>Physical security at data center locations</li>
+              <li>جدران حماية وأنظمة كشف التسلل</li>
+              <li>تحديثات وتصحيحات أمان منتظمة</li>
+              <li>نسخ احتياطية تلقائية وإجراءات التعافي من الكوارث</li>
+              <li>حماية DDoS ومراقبة حركة المرور</li>
+              <li>أمان مادي في مواقع مراكز البيانات</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">4. Third-Party Services</h2>
-            <p className="leading-relaxed mb-4">
-              We carefully vet all third-party services used on our website, including:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">4. الخدمات الخارجية</h2>
+            <p className="leading-relaxed mb-4">نقوم بتقييم جميع الخدمات الخارجية المستخدمة على موقعنا بعناية، بما في ذلك:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Google Analytics - for website analytics</li>
-              <li>Google AdSense - for advertising services</li>
-              <li>Vercel Analytics - for performance monitoring</li>
+              <li>Google Analytics — لتحليلات الموقع</li>
+              <li>Google AdSense — لخدمات الإعلانات</li>
+              <li>Vercel Analytics — لمراقبة الأداء</li>
             </ul>
             <p className="leading-relaxed mb-4">
-              All third-party services are required to maintain their own security standards and comply with applicable
-              data protection regulations.
+              يجب على جميع الخدمات الخارجية الحفاظ على معايير الأمان الخاصة بها والامتثال للوائح حماية البيانات المعمول بها.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">5. Cookie Security</h2>
-            <p className="leading-relaxed mb-4">
-              Cookies used on our website are configured with appropriate security settings:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">5. أمان ملفات تعريف الارتباط</h2>
+            <p className="leading-relaxed mb-4">يتم ضبط ملفات تعريف الارتباط على موقعنا باستخدام إعدادات أمان مناسبة، مثل:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>HttpOnly flags to prevent client-side script access</li>
-              <li>Secure flags to ensure transmission over HTTPS only</li>
-              <li>SameSite attributes to prevent CSRF attacks</li>
-              <li>Regular expiration to minimize exposure</li>
+              <li>علم HttpOnly لمنع الوصول عبر السكربتات</li>
+              <li>علم Secure لضمان النقل عبر HTTPS فقط</li>
+              <li>خاصية SameSite لمنع هجمات CSRF</li>
+              <li>تواريخ انتهاء صلاحية منتظمة لتقليل التعرض للمخاطر</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">6. Monitoring and Logging</h2>
-            <p className="leading-relaxed mb-4">
-              We maintain comprehensive logging and monitoring systems to detect and respond to security threats:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">6. المراقبة والتسجيل</h2>
+            <p className="leading-relaxed mb-4">نحافظ على أنظمة شاملة للتسجيل والمراقبة لاكتشاف التهديدات الأمنية والرد عليها:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Real-time security monitoring and alerting</li>
-              <li>Regular log analysis and review</li>
-              <li>Anomaly detection systems</li>
-              <li>Security event correlation</li>
+              <li>مراقبة أمنية وتنبيهات في الوقت الفعلي</li>
+              <li>تحليل ومراجعة السجلات بشكل منتظم</li>
+              <li>أنظمة كشف الشذوذ</li>
+              <li>ربط أحداث الأمان</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">7. Incident Response</h2>
-            <p className="leading-relaxed mb-4">
-              In the event of a security incident, we have established procedures to:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">7. الاستجابة للحوادث</h2>
+            <p className="leading-relaxed mb-4">في حال وقوع حادث أمني، لدينا إجراءات لإ:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Quickly identify and contain the incident</li>
-              <li>Assess the impact and scope of the breach</li>
-              <li>Notify affected users in accordance with legal requirements</li>
-              <li>Implement corrective measures to prevent recurrence</li>
-              <li>Conduct post-incident reviews and improvements</li>
+              <li>تحديد الحادث واحتوائه بسرعة</li>
+              <li>تقييم الأثر ونطاق الاختراق</li>
+              <li>إخطار المستخدمين المتأثرين حسب المتطلبات القانونية</li>
+              <li>تنفيذ تدابير تصحيحية لمنع تكرار المشكلة</li>
+              <li>إجراء مراجعات وتحسينات بعد الحادث</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">8. User Responsibilities</h2>
-            <p className="leading-relaxed mb-4">
-              While we implement robust security measures, we also encourage users to:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">8. مسؤوليات المستخدم</h2>
+            <p className="leading-relaxed mb-4">على الرغم من أننا نتخذ تدابير أمان قوية، نشجع المستخدمين أيضًا على:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Keep their devices and browsers up to date</li>
-              <li>Use strong, unique passwords</li>
-              <li>Be cautious of phishing attempts</li>
-              <li>Report any suspicious activity</li>
-              <li>Review privacy settings in their browsers</li>
+              <li>تحديث أجهزتهم ومتصفحاتهم باستمرار</li>
+              <li>استخدام كلمات مرور قوية وفريدة</li>
+              <li>الانتباه لمحاولات التصيّد الاحتيالي</li>
+              <li>الإبلاغ عن أي نشاط مشبوه</li>
+              <li>مراجعة إعدادات الخصوصية في المتصفح</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">9. Compliance</h2>
-            <p className="leading-relaxed mb-4">
-              We maintain compliance with relevant data protection regulations including:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">9. الامتثال</h2>
+            <p className="leading-relaxed mb-4">نلتزم باللوائح الخاصة بحماية البيانات بما في ذلك:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>General Data Protection Regulation {"(GDPR)"}</li>
-              <li>California Consumer Privacy Act {"(CCPA)"}</li>
-              <li>{"Children's Online Privacy Protection Act (COPPA)"}</li>
-              <li>Google Ads Policies and Requirements</li>
+              <li>اللائحة العامة لحماية البيانات {"(GDPR)"}</li>
+              <li>قانون خصوصية المستهلك في كاليفورنيا {"(CCPA)"}</li>
+              <li>قانون حماية خصوصية الأطفال على الإنترنت {"(COPPA)"}</li>
+              <li>سياسات ومتطلبات إعلانات Google</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">10. Security Updates</h2>
+            <h2 className="text-2xl font-semibold mb-4">10. تحديثات الأمان</h2>
             <p className="leading-relaxed mb-4">
-              We continuously review and update our security practices to address emerging threats and maintain the
-              highest standards of protection. This page will be updated to reflect any significant changes to our
-              security measures.
+              نقوم بمراجعة وتحديث ممارسات الأمان باستمرار لمواكبة التهديدات الجديدة والحفاظ على أعلى معايير الحماية.
+              سيتم تحديث هذه الصفحة لتعكس أي تغييرات مهمة.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">11. Reporting Security Issues</h2>
+            <h2 className="text-2xl font-semibold mb-4">11. الإبلاغ عن مشكلات الأمان</h2>
             <p className="leading-relaxed mb-4">
-              If you discover a security vulnerability or have concerns about our security practices, please contact us
-              immediately at:
+              إذا اكتشفت ثغرة أمنية أو كانت لديك مخاوف بشأن ممارسات الأمان لدينا، يرجى التواصل معنا فورًا عبر:
             </p>
             <p className="leading-relaxed mb-4">
-              Email:{" "}
-              <a href="mailto:security@ararbuc.com" className="text-primary hover:underline">
-                security@ararbuc.com
+              البريد الإلكتروني:{" "}
+              <a href="mailto:security@infoallc.com" className="text-primary hover:underline">
+                security@infoallc.com
               </a>
             </p>
             <p className="leading-relaxed mb-4">
-              We take all security reports seriously and will respond promptly to investigate and address any issues.
+              نحن نتعامل بجدية مع جميع تقارير الأمان وسنقوم بالرد بسرعة للتحقيق في أي مشكلات ومعالجتها.
             </p>
           </section>
         </article>

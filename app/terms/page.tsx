@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 
 export const metadata = {
-  title: "Terms of Service - ararbuc",
-  description: "Terms of service for ararbuc bio links page",
+  title: "شروط الخدمة - infoallc",
+  description: "شروط الخدمة لصفحة الروابط الحيوية الخاصة بـ infoallc",
 }
 
 export default function TermsPage() {
@@ -14,98 +14,96 @@ export default function TermsPage() {
         <Link href="/">
           <Button variant="ghost" className="mb-8">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Home
+            العودة إلى الرئيسية
           </Button>
         </Link>
 
         <article className="prose prose-slate dark:prose-invert max-w-none">
-          <h1 className="text-4xl font-bold mb-4 text-balance">Terms of Service</h1>
-          <p className="text-muted-foreground mb-8">Last Updated: November 24, 2025</p>
+          <h1 className="text-4xl font-bold mb-4 text-balance">شروط الخدمة</h1>
+          <p className="text-muted-foreground mb-8">آخر تحديث: 24 نوفمبر 2025</p>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">1. Agreement to Terms</h2>
+            <h2 className="text-2xl font-semibold mb-4">1. الموافقة على الشروط</h2>
             <p className="leading-relaxed mb-4">
-              By accessing or using ararbuc{"'"}s bio links page {"("}"the Service"{")"}, you agree to be bound by these
-              Terms of Service. If you disagree with any part of the terms, you may not access the Service.
+              من خلال الوصول إلى صفحة الروابط الحيوية الخاصة بـ infoallc {"("}"الخدمة"{")"}, فإنك توافق على الالتزام
+              بهذه الشروط. إذا كنت لا توافق على أي جزء من هذه الشروط، فلا يحق لك استخدام الخدمة.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">2. Use License</h2>
+            <h2 className="text-2xl font-semibold mb-4">2. ترخيص الاستخدام</h2>
             <p className="leading-relaxed mb-4">
-              Permission is granted to temporarily access the materials on this website for personal, non-commercial
-              transitory viewing only. This is the grant of a license, not a transfer of title, and under this license
-              you may not:
+              يُسمح لك بالوصول المؤقت إلى المواد الموجودة على هذا الموقع للاستخدام الشخصي وغير التجاري وللمشاهدة
+              المؤقتة فقط. يُعد هذا ترخيصًا وليس نقلًا للملكية، وبموجب هذا الترخيص لا يجوز لك:
             </p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Modify or copy the materials</li>
-              <li>Use the materials for any commercial purpose or public display</li>
-              <li>Attempt to reverse engineer any software on this website</li>
-              <li>Remove any copyright or proprietary notations from the materials</li>
-              <li>Transfer the materials to another person or mirror the materials on another server</li>
+              <li>تعديل أو نسخ المواد</li>
+              <li>استخدام المواد لأي غرض تجاري أو عرض عام</li>
+              <li>محاولة الهندسة العكسية لأي برنامج موجود على الموقع</li>
+              <li>إزالة أي ملاحظات حقوق نشر أو ملكية من المواد</li>
+              <li>نقل المواد إلى شخص آخر أو نسخها على خادم آخر</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">3. Disclaimer</h2>
+            <h2 className="text-2xl font-semibold mb-4">3. إخلاء المسؤولية</h2>
             <p className="leading-relaxed mb-4">
-              The materials on this website are provided on an {"'as is'"} basis. We make no warranties, expressed or
-              implied, and hereby disclaim all other warranties including, without limitation, implied warranties or
-              conditions of merchantability, fitness for a particular purpose, or non-infringement.
+              يتم تقديم المواد على هذا الموقع على أساس {"'كما هي'"} دون أي ضمانات صريحة أو ضمنية. نحن نخلي مسؤوليتنا
+              عن جميع الضمانات الأخرى بما في ذلك، دون حصر، الضمانات الضمنية الخاصة بالجودة والصلاحية لغرض معين أو عدم
+              الانتهاك.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">4. Links</h2>
+            <h2 className="text-2xl font-semibold mb-4">4. الروابط</h2>
             <p className="leading-relaxed mb-4">
-              We have not reviewed all of the sites linked from this website and are not responsible for the contents of
-              any such linked site. The inclusion of any link does not imply endorsement by us. Use of any linked
-              website is at the user{"'"}s own risk.
+              لم نراجع جميع المواقع المرتبطة بهذا الموقع، ولسنا مسؤولين عن محتويات أي موقع يرتبط بنا. إدراج أي رابط لا
+              يعني تأييدنا له. استخدامك لأي موقع مرتبط يكون على مسؤوليتك الخاصة.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">5. Limitations of Liability</h2>
+            <h2 className="text-2xl font-semibold mb-4">5. حدود المسؤولية</h2>
             <p className="leading-relaxed mb-4">
-              In no event shall ararbuc or its suppliers be liable for any damages (including, without limitation,
-              damages for loss of data or profit, or due to business interruption) arising out of the use or inability
-              to use the materials on this website.
+              لن تتحمل infoallc أو مورديها بأي حال من الأحوال المسؤولية عن أي أضرار، بما في ذلك على سبيل المثال لا الحصر،
+              فقدان البيانات أو الأرباح أو توقف الأعمال، الناتجة عن استخدام أو عدم القدرة على استخدام المواد على هذا
+              الموقع.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">6. Accuracy of Materials</h2>
+            <h2 className="text-2xl font-semibold mb-4">6. دقة المواد</h2>
             <p className="leading-relaxed mb-4">
-              The materials appearing on this website could include technical, typographical, or photographic errors. We
-              do not warrant that any of the materials are accurate, complete, or current.
+              قد تحتوي المواد الموجودة على هذا الموقع على أخطاء تقنية أو طباعية أو تصويرية. لا نضمن أن المواد دقيقة أو
+              كاملة أو حديثة.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">7. Modifications</h2>
+            <h2 className="text-2xl font-semibold mb-4">7. التعديلات</h2>
             <p className="leading-relaxed mb-4">
-              We may revise these Terms of Service at any time without notice. By using this website, you agree to be
-              bound by the current version of these Terms of Service.
+              قد نقوم بمراجعة شروط الخدمة هذه في أي وقت دون إشعار. باستخدامك لهذا الموقع، فإنك توافق على الالتزام
+              بالإصدار الحالي من هذه الشروط.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">8. Governing Law</h2>
+            <h2 className="text-2xl font-semibold mb-4">8. القانون الحاكم</h2>
             <p className="leading-relaxed mb-4">
-              These terms and conditions are governed by and construed in accordance with applicable laws, and you
-              irrevocably submit to the exclusive jurisdiction of the courts in that location.
+              تخضع هذه الشروط وتُفسر وفقًا للقوانين المطبقة، وتوافق على الخضوع للاختصاص القضائي الحصري للمحاكم في تلك
+              المنطقة.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">9. Contact Information</h2>
+            <h2 className="text-2xl font-semibold mb-4">9. معلومات التواصل</h2>
             <p className="leading-relaxed mb-4">
-              If you have any questions about these Terms of Service, please contact us at:
+              إذا كانت لديك أي أسئلة بخصوص شروط الخدمة هذه، يمكنك التواصل معنا عبر:
             </p>
             <p className="leading-relaxed mb-4">
-              Email:{" "}
-              <a href="mailto:legal@ararbuc.com" className="text-primary hover:underline">
-                legal@ararbuc.com
+              البريد الإلكتروني:{" "}
+              <a href="mailto:legal@infoallc.com" className="text-primary hover:underline">
+                legal@infoallc.com
               </a>
             </p>
           </section>

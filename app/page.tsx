@@ -94,7 +94,7 @@ export default function HomePage() {
           </div>
 
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} ararbuc. جميع الحقوق محفوظة.
+            © {new Date().getFullYear()} infoallc. جميع الحقوق محفوظة.
           </p>
         </footer>
 

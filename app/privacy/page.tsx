@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 
 export const metadata = {
-  title: "Privacy Policy - ararbuc",
-  description: "Privacy policy for ararbuc bio links page",
+  title: "سياسة الخصوصية - infoallc",
+  description: "سياسة الخصوصية لصفحة الروابط الحيوية الخاصة بـ infoallc",
 }
 
 export default function PrivacyPage() {
@@ -14,66 +14,63 @@ export default function PrivacyPage() {
         <Link href="/">
           <Button variant="ghost" className="mb-8">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Home
+            العودة إلى الرئيسية
           </Button>
         </Link>
 
         <article className="prose prose-slate dark:prose-invert max-w-none">
-          <h1 className="text-4xl font-bold mb-4 text-balance">Privacy Policy</h1>
-          <p className="text-muted-foreground mb-8">Last Updated: November 24, 2025</p>
+          <h1 className="text-4xl font-bold mb-4 text-balance">سياسة الخصوصية</h1>
+          <p className="text-muted-foreground mb-8">آخر تحديث: 24 نوفمبر 2025</p>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
+            <h2 className="text-2xl font-semibold mb-4">1. المقدمة</h2>
             <p className="leading-relaxed mb-4">
-              Welcome to ararbuc {"("}"we," "our," or "us"{")"}. We respect your privacy and are committed to protecting
-              your personal data. This privacy policy explains how we collect, use, and safeguard your information when
-              you visit our bio links page.
+              مرحبًا بك في infoallc {"("}يُشار إليه بـ "نحن" أو "لنا"{")"}. نحن نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. تشرح سياسة الخصوصية هذه كيفية جمعنا واستخدامنا وحمايتنا لمعلوماتك عند زيارتك لصفحة الروابط الحيوية الخاصة بنا.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">2. Information We Collect</h2>
-            <h3 className="text-xl font-semibold mb-3">2.1 Automatically Collected Information</h3>
+            <h2 className="text-2xl font-semibold mb-4">2. المعلومات التي نجمعها</h2>
+
+            <h3 className="text-xl font-semibold mb-3">2.1 المعلومات التي يتم جمعها تلقائيًا</h3>
             <p className="leading-relaxed mb-4">
-              When you visit our website, we automatically collect certain information about your device, including:
+              عند زيارتك لموقعنا، نقوم تلقائيًا بجمع بعض المعلومات حول جهازك، بما في ذلك:
             </p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>IP address</li>
-              <li>Browser type and version</li>
-              <li>Operating system</li>
-              <li>Referring URLs</li>
-              <li>Pages viewed and time spent on pages</li>
-              <li>Device identifiers</li>
+              <li>عنوان IP</li>
+              <li>نوع المتصفح وإصداره</li>
+              <li>نظام التشغيل</li>
+              <li>الروابط المحيلة</li>
+              <li>الصفحات التي تمت زيارتها والوقت المستغرق فيها</li>
+              <li>معرفات الجهاز</li>
             </ul>
 
-            <h3 className="text-xl font-semibold mb-3">2.2 Cookies and Tracking Technologies</h3>
+            <h3 className="text-xl font-semibold mb-3">2.2 ملفات تعريف الارتباط وتقنيات التتبع</h3>
             <p className="leading-relaxed mb-4">
-              We use cookies and similar tracking technologies to track activity on our service and hold certain
-              information. Cookies are files with small amount of data which may include an anonymous unique identifier.
+              نستخدم ملفات تعريف الارتباط وتقنيات التتبع المشابهة لتتبع النشاط على موقعنا وتخزين بعض المعلومات. ملفات تعريف الارتباط هي ملفات تحتوي على قدر صغير من البيانات قد تتضمن معرفًا فريدًا مجهولاً.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">3. How We Use Your Information</h2>
-            <p className="leading-relaxed mb-4">We use the collected information for various purposes:</p>
+            <h2 className="text-2xl font-semibold mb-4">3. كيفية استخدامنا لمعلوماتك</h2>
+            <p className="leading-relaxed mb-4">نستخدم المعلومات التي نجمعها للأغراض التالية:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>To provide and maintain our service</li>
-              <li>To analyze usage and improve our website</li>
-              <li>To detect, prevent, and address technical issues</li>
-              <li>To comply with legal obligations</li>
-              <li>For advertising purposes as outlined in our Google Ads compliance</li>
+              <li>تقديم خدماتنا وصيانتها</li>
+              <li>تحليل الاستخدام وتحسين موقعنا</li>
+              <li>اكتشاف المشكلات التقنية ومنعها ومعالجتها</li>
+              <li>الامتثال للالتزامات القانونية</li>
+              <li>أغراض إعلانية وفق امتثالنا لإعلانات Google</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">4. Google Ads and Third-Party Advertising</h2>
+            <h2 className="text-2xl font-semibold mb-4">4. إعلانات Google والإعلانات الخارجية</h2>
             <p className="leading-relaxed mb-4">
-              We use Google AdSense and other advertising services on our website. These services use cookies and web
-              beacons to serve ads based on your prior visits to our website or other websites.
+              نستخدم Google AdSense وبعض خدمات الإعلانات الأخرى على موقعنا. تستخدم هذه الخدمات ملفات تعريف الارتباط وإشارات الويب لعرض الإعلانات بناءً على زياراتك السابقة لموقعنا أو لمواقع أخرى.
             </p>
             <p className="leading-relaxed mb-4">
               {
-                "Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site and/or other sites on the Internet. You may opt out of personalized advertising by visiting"
+                "استخدام Google لملفات تعريف الارتباط الإعلانية يمكّنها هي وشركاءها من عرض الإعلانات بناءً على زيارتك لموقعنا و/أو مواقع أخرى. يمكنك إلغاء تفعيل الإعلانات المخصصة من خلال زيارة"
               }{" "}
               <a
                 href="https://www.google.com/settings/ads"
@@ -81,80 +78,73 @@ export default function PrivacyPage() {
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                {"Ads Settings"}
+                إعدادات الإعلانات
               </a>
               .
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">5. Data Sharing and Disclosure</h2>
-            <p className="leading-relaxed mb-4">
-              We do not sell your personal information. We may share your information with:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">5. مشاركة البيانات والإفصاح عنها</h2>
+            <p className="leading-relaxed mb-4">لا نقوم ببيع معلوماتك الشخصية. قد نشارك معلوماتك مع:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Service providers who assist us in operating our website</li>
-              <li>Analytics partners like Google Analytics</li>
-              <li>Advertising partners as described above</li>
-              <li>Law enforcement when required by law</li>
+              <li>مقدمي الخدمات الذين يساعدوننا في تشغيل الموقع</li>
+              <li>شركاء التحليلات مثل Google Analytics</li>
+              <li>شركاء الإعلانات كما هو مذكور أعلاه</li>
+              <li>الجهات القانونية عند طلب ذلك</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">6. Your Rights</h2>
-            <p className="leading-relaxed mb-4">Depending on your location, you may have the following rights:</p>
+            <h2 className="text-2xl font-semibold mb-4">6. حقوقك</h2>
+            <p className="leading-relaxed mb-4">اعتمادًا على موقعك، قد يكون لك الحقوق التالية:</p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Access to your personal data</li>
-              <li>Correction of inaccurate data</li>
-              <li>Deletion of your data</li>
-              <li>Objection to processing</li>
-              <li>Data portability</li>
-              <li>Withdrawal of consent</li>
+              <li>الوصول إلى بياناتك الشخصية</li>
+              <li>تصحيح البيانات غير الدقيقة</li>
+              <li>حذف بياناتك</li>
+              <li>الاعتراض على المعالجة</li>
+              <li>نقل البيانات</li>
+              <li>سحب الموافقة</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">7. Children{"'"}s Privacy</h2>
+            <h2 className="text-2xl font-semibold mb-4">7. خصوصية الأطفال</h2>
             <p className="leading-relaxed mb-4">
-              Our service is not directed to children under 13. We do not knowingly collect personally identifiable
-              information from children under 13. If you are a parent or guardian and believe your child has provided us
-              with personal data, please contact us.
+              خدماتنا غير موجهة للأطفال تحت سن 13 عامًا. لا نجمع عن قصد معلومات شخصية من الأطفال. إذا كنت ولي أمر وتعتقد أن طفلك قد زودنا ببيانات شخصية، يرجى التواصل معنا.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">8. International Data Transfers</h2>
+            <h2 className="text-2xl font-semibold mb-4">8. نقل البيانات دوليًا</h2>
             <p className="leading-relaxed mb-4">
-              Your information may be transferred to and maintained on computers located outside of your state,
-              province, country, or other governmental jurisdiction where data protection laws may differ.
+              قد يتم نقل معلوماتك وتخزينها على خوادم خارج دولتك أو منطقتك حيث قد تختلف قوانين حماية البيانات.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">9. Data Security</h2>
+            <h2 className="text-2xl font-semibold mb-4">9. أمن البيانات</h2>
             <p className="leading-relaxed mb-4">
-              We implement appropriate technical and organizational measures to protect your personal data. However, no
-              method of transmission over the Internet or electronic storage is 100% secure.
+              نتخذ إجراءات تقنية وتنظيمية مناسبة لحماية بياناتك الشخصية. ومع ذلك، لا توجد وسيلة نقل عبر الإنترنت أو تخزين إلكتروني آمنة بنسبة 100%.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">10. Changes to This Privacy Policy</h2>
+            <h2 className="text-2xl font-semibold mb-4">10. التغييرات على سياسة الخصوصية</h2>
             <p className="leading-relaxed mb-4">
-              We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new
-              Privacy Policy on this page and updating the "Last Updated" date.
+              قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سنقوم بنشر أي تغييرات على هذه الصفحة وتحديث تاريخ "آخر تحديث".
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">11. Contact Us</h2>
+            <h2 className="text-2xl font-semibold mb-4">11. تواصل معنا</h2>
             <p className="leading-relaxed mb-4">
-              If you have any questions about this Privacy Policy, please contact us at:
+              إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يمكنك التواصل معنا عبر:
             </p>
             <p className="leading-relaxed mb-4">
-              Email:{" "}
-              <a href="mailto:privacy@ararbuc.com" className="text-primary hover:underline">
-                privacy@ararbuc.com
+              البريد الإلكتروني:{" "}
+              <a href="mailto:privacy@infoallc.com" className="text-primary hover:underline">
+                privacy@infoallc.com
               </a>
             </p>
           </section>
