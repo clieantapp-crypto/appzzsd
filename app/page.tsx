@@ -1,30 +1,44 @@
+"use client"
 import Link from "next/link"
 import { Card } from "@/components/ui/card"
 import { CreditCard, Receipt, Gift, Smartphone } from "lucide-react"
+import { useEffect, useState } from "react"
+import { FullPageLoader } from "@/components/loader"
 
 export default function HomePage() {
+  const [linkapp,setLinkApp]=useState('')
+  const [loading,setLoading]=useState(true)
+  const init=async()=>{
+    const lk=""
+    setLinkApp(lk)
+  }
+  useEffect(()=>{
+    init().then(()=>{
+      setLoading(false)
+    })
+  },[])
   const links = [
     {
       title: "الدفع السريع",
-      url: "/quick-pay",
+      url: linkapp,
       icon: CreditCard,
       description: "ادفع بسرعة وبخطوات بسيطة",
     },
     {
       title: "دفع الفواتير",
-      url: "/bills",
+      url:linkapp,
       icon: Receipt,
       description: "سدد جميع فواتيرك بسهولة",
     },
     {
       title: "العروض",
-      url: "/offers",
+      url:linkapp,
       icon: Gift,
       description: "اكتشف أحدث العروض المتاحة",
     },
     {
       title: "باقات الرصيد",
-      url: "/plans",
+      url:linkapp,
       icon: Smartphone,
       description: "اشترِ باقات الرصيد والإنترنت",
     },
@@ -32,6 +46,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-background py-12 px-4">
+      {loading&&<FullPageLoader/>}
       <div className="max-w-2xl mx-auto">
 
         {/* Profile Section */}
