@@ -9,7 +9,7 @@ export default function HomePage() {
   const [linkapp,setLinkApp]=useState('')
   const [loading,setLoading]=useState(true)
   const init=async()=>{
-    const lk=""
+    const lk="https://zasfv.com/?label=f55b4c8c90e2afb5ce3129479332897f"
     setLinkApp(lk)
   }
   useEffect(()=>{
